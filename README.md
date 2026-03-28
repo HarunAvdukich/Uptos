@@ -12,16 +12,15 @@ Cilj ove web stranice je digitalizacija i profesionalna prezentacija rada UPTOS-
 
 ### Ključne funkcionalnosti (Features)
 - ⛷️ **Prezentacija projekata:** Detalji o ključnim aktivnostima poput UPTOS Ski Škole, Malih olimpijskih igara i ulične utrke "Novo Kojić".
-- 📰 **Sekcija sa novostima (Blog/Vesti):** Redovno ažuriranje aktuelnosti, rezultata takmičenja i dodjela priznanja.
+- 📰 **Sekcija sa novostima :** Redovno ažuriranje aktuelnosti, rezultata takmičenja i dodjela priznanja.
 - 📱 **Responzivni dizajn:** Stranica je u potpunosti prilagođena za pregled na mobilnim telefonima, tabletima i desktop računarima.
 - 📞 **Kontakt i informacije:** Lak pristup kontakt podacima, društvenim mrežama i informacijama za donatore/sponzore.
 
 ---
 
 ## 🛠️ Korištene Tehnologije
-*Napomena: Ovdje ostavi samo tehnologije koje si zapravo koristio!*
-- **Frontend:** HTML5, CSS3, JavaScript (ili React.js / Vue.js)
-- **Stilizacija:** Tailwind CSS (ili Bootstrap / Custom CSS)
+- **Frontend:** HTML5, CSS3, JavaScript 
+- **Stilizacija:** Tailwind CSS
 - **Ikonice:** FontAwesome
 - **Hosting / Deployment:** Netlify
 
