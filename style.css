@@ -390,10 +390,15 @@ footer {
 .footer-inner {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 1.25rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 1.5rem;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  
+  
 }
 
 .footer-col {
@@ -481,6 +486,106 @@ footer {
   display: grid;
   gap: 0.6rem;
 }
+
+.section_contact {
+  backdrop-filter: blur(5px);
+  background: linear-gradient(180deg, rgba(57, 62, 70, 1) 0%, rgba(34, 40, 49, 1) 100%);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 3rem;
+  width: 100%;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: var(--text-color);
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width:1200px;
+  
+}
+.section_contact h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  text-align: center;
+  line-height: 1.6;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.section_contact p {
+  font-size: 1rem;
+  color: var(--text-color);
+  text-align: center;
+  line-height: 1.6;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.section_contact label {
+  font-size: 1rem;
+  color: var(--text-color);
+  text-align: left;
+  line-height: 1.6;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.section_contact input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--card-border);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.section_contact textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--card-border);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-family: 'Roboto';
+  font-weight: 400;
+  resize: none;
+}
+.section_contact button {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--card-border);
+  background-color: var(--navbar-color);
+  color: var(--text-color);
+  font-family: 'Roboto';
+  font-weight: 400;
+  cursor: pointer;
+}
+.section_contact span {
+  font-size: 3rem;
+  color: var(--text-color);
+  text-align: center;
+  line-height: 1.6;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-weight: bold;
+  text-decoration: none;
+}
+.contact-inner {
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+}
+
 
 .social-link {
   display: inline-flex;
