@@ -1201,11 +1201,80 @@ nav ul {
     rgba(0,0,0,1) 70%,
     rgba(0,0,0,0) 100%
   );
-
-  
+  }
+  .section_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    gap: 1rem;
+    
+    
+  }
+  .section_contact h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 1.6;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .section_contact p {
+    font-size: 1rem;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 1.6;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .section_contact label {
+    font-size: 1rem;
+    color: var(--text-color);
+    text-align: left;
+    line-height: 1.6;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .section_contact input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .section_contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    resize: none;
+  }
+  .section_contact button {
+    width: 100%;
+    padding: 0.5rem;  
    
   }
-  
+  .contact-inner {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      padding: 0 1.25rem;
+      box-sizing: border-box;
+  }
+
   .navbar_uptos {
     min-height: 400px;
     
@@ -1224,12 +1293,23 @@ nav ul {
   }
 
   .footer-inner {
-    grid-template-columns: 1fr;
+    
+    justify-content: center;
+    
+    gap: 1rem;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
   }
+  
   .social-link {
     width: 100%;
     justify-content: center;
   }
+
  
 
 
@@ -1583,6 +1663,91 @@ header p {
     rgba(0,0,0,0) 100%
   );
   }
+  .footer-inner {
+    
+    justify-content: center;
+    
+    gap: 1rem;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .section_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    gap: 1rem;
+    
+    
+  }
+  .section_contact h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 1.6;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .section_contact p {
+    font-size: 1rem;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 1.6;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .section_contact label {
+    font-size: 1rem;
+    color: var(--text-color);
+    text-align: left;
+    line-height: 1.6;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .section_contact input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .section_contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    resize: none;
+  }
+  .section_contact button {
+    width: 100%;
+    padding: 0.5rem;  
+   
+  }
+  .contact-inner {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      padding: 0 1.25rem;
+      box-sizing: border-box;
+  }
+
 
   .navbar {
     min-height: auto;
