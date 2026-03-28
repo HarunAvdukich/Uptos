@@ -384,7 +384,7 @@ footer {
   padding: 2.25rem 0 1.25rem 0;
   font-family: 'Roboto';
   font-weight: 400;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  
 }
 
 .footer-inner {
@@ -488,25 +488,21 @@ footer {
 }
 
 .section_contact {
-  backdrop-filter: blur(5px);
-  background: linear-gradient(180deg, rgba(57, 62, 70, 1) 0%, rgba(34, 40, 49, 1) 100%);
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  border-radius: 10px;
-  margin: 0 auto;
+  
+  background: linear-gradient(180deg, rgba(34, 40, 49, 1) 0%, rgba(57, 62, 70, 1) 100%);
+  color: var(--text-color);
+   
   padding: 3rem;
-  width: 100%;
+  
   gap: 2rem;
-  margin-bottom: 2rem;
+  
   font-family: 'Roboto';
   font-weight: 400;
   color: var(--text-color);
-  text-align: center;
   line-height: 1.6;
   font-size: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width:1200px;
+  
+
   
 }
 .section_contact h2 {
@@ -517,6 +513,7 @@ footer {
   line-height: 1.6;
   font-family: 'Roboto';
   font-weight: 400;
+  margin-right: 50px;
 }
 .section_contact p {
   font-size: 1rem;
@@ -557,14 +554,15 @@ footer {
 }
 .section_contact button {
   width: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 10px;
   border: 1px solid var(--card-border);
   background-color: var(--navbar-color);
   color: var(--text-color);
   font-family: 'Roboto';
-  font-weight: 400;
+  font-weight: 600;
   cursor: pointer;
+  margin-top: 20px;
 }
 .section_contact span {
   font-size: 3rem;
@@ -575,15 +573,18 @@ footer {
   font-weight: 400;
   font-weight: bold;
   text-decoration: none;
+  
+  
 }
 .contact-inner {
-  display: flex;
-  flex-direction: row;
-  
-  justify-content: center;
   gap: 1.5rem;
   padding: 0 1.25rem;
-  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+  
+  
 }
 
 
@@ -903,7 +904,7 @@ footer {
 
 
 
-.clanak, .o_nama-text, .projekti-slike, footer, .navbar_uptos h1 , .navbar_uptos p {
+.clanak, .o_nama-text, .projekti-slike, footer, .navbar_uptos h1 , .navbar_uptos p , .section_contact{
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInSection 1s ease forwards;
@@ -925,6 +926,9 @@ footer {
   animation-delay: 0.6s;
 }
 .navbbar_uptos p {
+  animation-delay: 0.6s;
+}
+.section_contact{
   animation-delay: 0.6s;
 }
 
