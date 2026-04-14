@@ -1535,7 +1535,7 @@ header p {
 .o_nama-text p,
 .clanak-content p {
   line-height: 1.75;
-  max-width: 72ch;
+  max-width: 880px;
 }
 
 .projekti-slike {
